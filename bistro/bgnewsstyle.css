@@ -1,0 +1,92 @@
+body {
+    font-family: "Merriweather";
+    font-size: 100%;
+    margin: 0 15% 0;
+    text-align: center;
+    background: #faf2e4 url(images/blackgoose.png)
+  no-repeat center 100px fixed;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:link {
+      color: #d1633c;
+  }
+  a:visited { 
+      color: #d1633c;
+  }
+  a:hover {
+      color: #5bc2c7;
+      background-color: #fff;
+  }
+  a:focus {
+      color: #5bc2c7;
+      background-color: #fff;
+  }
+  a:active {
+      color: #073538;
+      background-color: white
+  }
+  
+  .Merriweather, h1 {
+    font: bold 1.5em "Merriweather", serif;
+    color: #d1633c;
+    text-align: center;
+    text-shadow: .1em .1em .2em rgb(248, 240, 240);
+    border-bottom: 2px solid #c60;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 1em;
+    color: #c60;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+  strong {
+    font-style: italic;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  #info p {
+    font-style: italic;
+  }
+  .label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+  }
+.prices {
+    color:#d1633c
+}
+
+  .centered-list {
+    text-align: center
+  }
+  
+  h2 + p {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  footer{
+border-top: 1px solid #d1633c;
+text-align: center;
+padding-top: 1em;
+}
+
+footer img {
+width: 40px;
+height: 40px;
+margin-left: .5em;
+margin-right: .5em;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: "Merriweather";
+    margin: 0 15% 0;
+    text-align: left;
+    background: #faf2e4 url(images/blackgoose.png)
+  no-repeat center 100px fixed;
+  }
+
+a {
+    text-decoration: none;
+  }
+  a:link {
+      color: #d1633c;
+  }
+  a:visited { 
+      color: #d1633c;
+  }
+  a:hover {
+      color: #5bc2c7;
+      background-color: #fff;
+  }
+  a:focus {
+      color: #5bc2c7;
+      background-color: #fff;
+  }
+  a:active {
+      color: #073538;
+      background-color: white
+  }
+  
+  .Merriweather, h1 {
+    font: bold 1.5em "Merriweather", serif;
+    color: #d1633c;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: .1em .1em .2em rgb(248, 240, 240);
+    border-bottom: 2px solid #57b1dc;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 1em;
+    color: #c60;
+    text-transform: uppercase;
+    letter-spacing: .10em;
+    text-align: left;
+  }
+
+footer{
+    border-top: 1px solid #5bc2c7;
+    text-align: center;
+    padding-top: 1em;
+    }
+    
+    footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+    }
+    
